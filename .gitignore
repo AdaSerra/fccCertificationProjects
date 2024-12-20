@@ -1,0 +1,8 @@
+*.png
+C1ResponsiveWebDesign/
+C2Javascript/
+C6Backend/
+/*/boilerplate*/*
+.env
+.glitch-assets
+/*/*/node_modules*/
