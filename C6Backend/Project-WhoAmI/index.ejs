@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHO AM I</title>
+    <link rel="stylesheet" type="text/css" href="./public/style.css">
+</head>
+<body>
+    <h1>Who am I </h1>
+<div>
+    <ul>
+        <li>IP address </li>
+        <li>Language </li>
+        <li>User Agent </li>
+        
+    </ul>
+
+    <ul>
+        <li><%= ip %></li>
+        <li><%= language %></li>
+        <li>><%= user_agent %></li>
+        
+    </ul>
+
+</div>
+
+<a href="/api/whoami"><button>Json format</button></a>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Timestamp Microservice</title>
+    <link rel="stylesheet" href="./public/style.css" type="text/css">
+</head>
+<body>
+    <h1>API UNIX / UTC TIME CONVERTER</h1>
+    <div class="div">
+    <form method="post" action="/api">
+        <label for="unix">Unix timestamp</label>
+        <input type="text" id="unix" min="0" pattern="^\d+$" name="unix" placeholder="14656760223">
+        <button type="submit">UTC Converter</button>
+        </form>
+    <form method="post" action="/api">
+        <label for="utc">UTC date</label>
+        <input type="date" id="utc" name="utc" placeholder="2000-01-01">
+        <button type="submit">Unix Converter</button>
+    </form>
+    </div>
+</body>
+</html>

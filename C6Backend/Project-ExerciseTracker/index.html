@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Tracker</title>
+</head>
+<body>
+    <h1>Exercise Tracking</h1>
+    <form action="/api/users" method="post">
+        <label for="user">Create new student</label>
+        <input type="text" name="username" id="user" required>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Add exercises</h2>
+    <form action="/api/users/:_id/exercises" id="exercise-form" method="post">
+    <input id="uid" type="text" name=":_id" placeholder=":_id" required/>
+    <input id="desc" type="text" name="description" placeholder="description*" />
+    <input id="dur" type="number" min="0" name="duration" placeholder="duration* (mins.)" />
+    <input id="date" type="date" name="date"/>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+
+</html>

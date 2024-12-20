@@ -1,0 +1,21 @@
+{
+  "name": "requestparsermicroservice",
+  "version": "1.0.0",
+  "description": "Parser header request",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whoami",
+    "microservice",
+    "freecodecamp"
+  ],
+  "author": "Adalberto Serra",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
